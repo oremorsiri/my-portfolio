@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -7,6 +8,10 @@
   <link rel="shortcut icon" href="images/iris-favicon.png" />
   <!-- GOOGLE FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Arbutus+Slab|Lato&display=swap&subset=latin-ext" rel="stylesheet">
+  <!-- FULL PAGE.JS JS y CSS -->
+  <script type="text/javascript" src="fullpage.js"></script>
+  <link rel="stylesheet" type="text/css" href="fullpage.css" />
+  <!-- CSS PROPIO -->
   <link rel="stylesheet" href="style.css">
   <title>Iris Romero</title>
 </head>
@@ -39,114 +44,164 @@
 
   </header>
 
-  <!-- BIENVENIDA  -->
-  <section id="welcome">
+  <div id="fullpage">
 
-    <div class="leftSection">
-      <img id="dibujoIris" src="images/iris-hexaes.png" alt="Carícatura de Iris">
-    </div>
+    <!-- BIENVENIDA  -->
+    <div class="section" data-anchor="section1">
 
-    <div class="rightSection">
-      <h3>¡Bienvenido!</h3>
-      <h2>Soy Iris,</h2>
-      <h1>Full Stack Developer</h1>
-    </div>
+      <div class="welcome">
 
-  </section>
+        <div class="leftSection">
+          <img id="dibujoIris" src="images/iris-hexaes.png" alt="Carícatura de Iris">
+        </div>
 
-  <!-- SOBRE MÍ -->
-  <section id="aboutMe">
+        <div class="rightSection">
+          <h3>¡Bienvenido!</h3>
+          <h2>Soy Iris,</h2>
+          <h1>Full Stack Developer</h1>
+        </div>
 
-    <div class="rightSection">
-      <h4>¿Te cuento algo sobre mí?</h4>
-      <p>Me encanta el desarrollo web y diseñar cosas bonitas. Aunque tengo una licenciatura en Historia, hace un año
-        hice un curso de marketing digital que me descubrió la programación web y con ello mi carrera profesional cambió
-        totalmente de rumbo.</p>
-      <br>
-      <p>Ahora he terminado un bootcamp con GeeksHubs que me ha permitido convertirme en FullStack Web Developer. He
-        aprendido a programar desde cero y he descubierto cuanto me gusta plantar cara a un reto nuevo cada vez, pero
-        sobretodo la satisfacción que siento cuando consigo superarlo.</p>
-      <img id="gatoCoder"
-        src="https://media1.giphy.com/media/heIX5HfWgEYlW/giphy.gif?cid=790b76115d320c8b3737535545c3791b&rid=giphy.gif"
-        alt="Gato tecleando">
-      <h4>¿Más cosas?</h4>
-      <p>Me encantan la fotografía, los videojuegos, hornear dulces y las manualidades. Cuando tengo un rato libre me
-        gusta aprovecharlo haciendo alguna de estas cosas, a veces todas a la vez!</p>
-      <br>
-      <p>Pasé cuatro años viviendo en Irlanda y otro en Inglaterra lo que me ha permitido adoptar una visión más global
-        del mundo, además de aprender el idioma y hacer amigos de todas partes.</p>
-    </div>
-
-    <div class="leftSection">
-      <img id="miCaraTren" src="images/iris-tren.jpg" alt="iris">
-    </div>
-
-  </section>
-
-  <!-- TECNOLOGÍAS -->
-  <section id="skills">
-    <h4>Tecnologías, frameworks y lenguajes</h4>
-    <img id="technologies" src="images/tecnologías-fullstacktr.png" alt="tecnologías fullstack">
-  </section>
-
-  <!-- PROYECTOS -->
-  <section id="projects">
-
-    <h4>Mis proyectos</h4>
-
-    <div class="myProjects">
-
-      <div>
-        <h5>Lista de tareas</h5>
-        <img src="" alt="">
-        <a href="https://oremorsiri.github.io/DOM-Tasks/">Enlace DEMO proyecto 1</a>
-        <a href="">Enlace REPO proyecto 1</a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur sequi ea dicta doloremque, dolorem
-          reprehenderit, perferendis nesciunt eum porro ad maxime nobis quibusdam debitis omnis tempora, est sit fuga
-          exercitationem.</p>
-      </div>
-
-      <div>
-        <h5>Proyecto 2</h5>
-        <img src="" alt="">
-        <a href="">Enlace proyecto 2</a>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit suscipit, illum, hic veritatis aliquam nisi
-          reiciendis est odit enim debitis dicta. Sequi quaerat facilis nesciunt quibusdam magnam beatae laboriosam
-          harum!</p>
-      </div>
-
-      <div>
-        <h5>Proyecto 3</h5>
-        <img src="" alt="">
-        <a href="">Enlace proyecto 3</a>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur natus placeat odio quaerat repellat,
-          nisi quidem quas deserunt inventore eligendi aliquam. Delectus, expedita a? Non perferendis ratione sunt
-          asperiores eaque.</p>
-      </div>
-
-      <div>
-        <h5>Proyecto 4</h5>
-        <img src="" alt="">
-        <a href="">Enlace proyecto 4</a>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui consequatur quos voluptas iure aperiam magni
-          rerum veritatis nam obcaecati magnam. Velit culpa repellat deleniti cum atque doloribus, asperiores voluptates
-          deserunt.</p>
       </div>
 
     </div>
 
-  </section>
+    <!-- SOBRE MÍ -->
+    <div class="section" data-anchor="section2">
+      
+      <div class="aboutMe">
 
-  <section id="contact">
-    <h4>¿Quieres contactar conmigo?</h4>
-    <a href="" target=" _blank"><img src="images/cv_setwithink.png" alt="CV logo"></a>
-    <a href="https://www.linkedin.com/in/irisromeropiquer/" target=" _blank"><img src="images/linkedin_setwithink.png"
-        alt="Linkedin logo"></a>
-    <a href="https://www.instagram.com/oremor.siri/" target=" _blank"><img src="images/instagram_setwithink.png"
-        alt="Instagram Logo"></a>
-    <a href="https://twitter.com/oremorsiri" target=" _blank"><img src="images/twitter_setwithink.png"
-        alt="Twitter logo"></a>
-  </section>
+        <div class="rightSection">
+          <h4>¿Te cuento algo sobre mí?</h4>
+          <p>Me encanta el desarrollo web y diseñar cosas bonitas. Aunque tengo una licenciatura en Historia, hace un año
+            hice un curso de marketing digital que me descubrió la programación web y con ello mi carrera profesional
+            cambió
+            totalmente de rumbo.</p>
+          <br>
+          <p>Ahora he terminado un bootcamp con GeeksHubs que me ha permitido convertirme en FullStack Web Developer. He
+            aprendido a programar desde cero y he descubierto cuanto me gusta plantar cara a un reto nuevo cada vez, pero
+            sobretodo la satisfacción que siento cuando consigo superarlo.</p>
+          <img id="gatoCoder"
+            src="https://media1.giphy.com/media/heIX5HfWgEYlW/giphy.gif?cid=790b76115d320c8b3737535545c3791b&rid=giphy.gif"
+            alt="Gato tecleando">
+          <h4>¿Más cosas?</h4>
+          <p>Me encantan la fotografía, los videojuegos, hornear dulces y las manualidades. Cuando tengo un rato libre me
+            gusta aprovecharlo haciendo alguna de estas cosas, a veces todas a la vez!</p>
+          <br>
+          <p>Pasé cuatro años viviendo en Irlanda y otro en Inglaterra lo que me ha permitido adoptar una visión más
+            global
+            del mundo, además de aprender el idioma y hacer amigos de todas partes.</p>
+        </div>
+
+        <div class="leftSection">
+          <img id="fotoCoder" src="images/iris-fotocoder.jpeg" alt="Iris">
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- TECNOLOGÍAS -->
+    <div class="section" data-anchor="section3">
+      <div class="skills">
+        <h4>Tecnologías, frameworks y lenguajes</h4>
+        <img id="technologies" src="images/tecnologías-fullstacktr.png" alt="tecnologías fullstack">
+      </div>
+    </div>
+
+    <!-- PROYECTOS -->
+    <div class="section" data-anchor="section4">
+      <div class="projects">
+
+      <h4>Mis proyectos</h4>
+<div>
+      <div class="projectsList">
+
+          <div class="project">
+            <h5>MoviesApp</h5>
+            <img class="demo" src="images/MoviesApp-demo_250.png" alt="Screenshot de la web de MoviesApp">
+            <div class="buttons">
+              <a href="https://moviesapp-mean.herokuapp.com/" class="demoButton" target="blank">Demo</a>
+              <a href="https://github.com/carlosmico/MovieApp" class="repoButton" target="blank">Repositorio</a>
+            </div>
+            <!-- <p>MoviesApp es una aplicación web que te permite estar al día de las películas más populares, las más votadas
+              y
+              los próximos estrenos así como información sobre sus actores, equipo técnico y creativo. Toda la información
+              de las películas que se muestran en la web es proporcionada por la API de <a
+                href="https://www.themoviedb.org/">TheMovieDB</a>. Proyecto grupal realizado utilizando MongoDB,
+              ExpressJS,
+              Angular 8 y NodeJS. </p> -->
+          </div>
+
+          <div class="project">
+            <h5>Agencia de Viajes</h5>
+            <img class="demo" src="" alt="">
+            <div class="buttons">
+              <a href="" class="demoButton" target="blank">Demo</a>
+              <a href="" class="repoButton" target="blank">Repositorio</a>
+            </div>
+            <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit suscipit, illum, hic veritatis aliquam nisi
+              reiciendis est odit enim debitis dicta. Sequi quaerat facilis nesciunt quibusdam magnam beatae laboriosam
+              harum!</p> -->
+          </div>
+
+          <div class="project">
+            <h5>Registro React</h5>
+            <img class="demo" src="images/FormularioReact-demo_250.png" alt="">
+            <div class="buttons">
+              <a href="" class="demoButton" target="blank">Demo</a>
+              <a href="https://github.com/oremorsiri/formulario-react" class="repoButton" target="blank">Repositorio</a>
+            </div>
+            <!-- <p>Registro creado con React y conectado a una base de datos de MongoDB.</p> -->
+          </div>
+
+          <div class="project">
+            <h5>Lista de tareas</h5>
+            <img class="demo" src="images/DOMtasks-demo_250.png" alt="Screenshot de la web de DOM tasks">
+            <div class="buttons">
+              <a href="https://oremorsiri.github.io/DOM-Tasks/" class="demoButton" target="blank">Demo</a>
+              <a href="https://github.com/oremorsiri/DOM-Tasks" class="repoButton" target="blank">Repositorio</a>
+            </div>
+            <!-- <p>Esta aplicación te permite crear una lista de tareas con subtareas, indicar que han sido empezadas y
+              marcarlas como finalizadas. Realizado con JavaScript mediante manipulación del DOM.</p> -->
+          </div>
+</div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- CONTACTO -->
+    <div class="section" data-anchor="section5">
+      <div class="contact">
+        <h4>¿Quieres contactar conmigo?</h4>
+        <img id="miCaraTren" src="images/iris-tren.jpg" alt="Iris">
+        <a href="" target=" _blank"><img src="images/cv_setwithink.png" alt="CV logo"></a>
+        <a href="https://www.linkedin.com/in/irisromeropiquer/" target=" _blank"><img src="images/linkedin_setwithink.png"
+          alt="Linkedin logo"></a>
+        <a href="https://www.instagram.com/oremor.siri/" target=" _blank"><img src="images/instagram_setwithink.png"
+          alt="Instagram Logo"></a>
+        <a href="https://twitter.com/oremorsiri" target=" _blank"><img src="images/twitter_setwithink.png"
+          alt="Twitter logo"></a>
+      </div>
+    </div>
+
+  </div>
 
   <footer>
-    <a href=https://es.pngtree.com/anitastudio_4321165?type=1>Gráficos de pngtree.com</a> </footer> </body> </html>
+    <a href=https://es.pngtree.com/anitastudio_4321165?type=1>Gráficos de pngtree.com</a> 
+  </footer> 
+  
+  <script>
+    new fullpage('#fullpage', {
+    //options here
+    autoScrolling: true,
+    scrollHorizontally: true,
+    anchors: ['welcome', 'aboutMe', 'skills', 'projects', 'contact'],
+    licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE'
+    });
+  </script>
+
+</body>
+
+</html>
