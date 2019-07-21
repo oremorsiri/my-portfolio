@@ -344,6 +344,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact>div:nth-child(2) {
+    background-image: url("images/iris-tren.jpg");
+    background-size: cover;
     margin: 2em;
     max-width: 450px;
     display: flex;
