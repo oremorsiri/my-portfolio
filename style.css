@@ -7,8 +7,8 @@
 }
 
 ::selection {
-    background-color: a389d5;
-    color: ffebe7;
+    background-color: #a389d5;
+    color: #ffebe7;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,6 +20,9 @@ h1, h2, h3, h4, h5, h6 {
     background-color: grey;
     display: flex;
     justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
 .navbar a {
@@ -92,13 +95,12 @@ h1, h2, h3, h4, h5, h6 {
     width: 100vw;
     height: 100vh;  
     display: flex;
-    flex-wrap: wrap;
     background: linear-gradient(to bottom, grey 0%, #ab93c9 50%, #ab93c9 100%);
 }
 
 .welcome .leftSection {
     padding: 1.563em;
-    
+    align-self: center;     
 }
 
 #dibujoIris {
@@ -126,10 +128,46 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.3em;
 }
 
+@media screen and (max-width: 769px) {
+    .welcome { 
+        flex-wrap: wrap;
+        text-align: center;  
+    }
+
+    .welcome .leftSection {
+        padding: 0;
+        align-self: center;     
+    }
+
+    .welcome .rightSection {
+        padding: inherit;
+        margin-top: 0;
+    }
+
+    .welcome .rightSection h3 {
+        font-size: 1.5em;
+        margin-bottom: 0.4em;
+    }
+    
+    .welcome .rightSection h2 {
+        font-size: 1.25em;
+        margin-bottom: 0.25em;
+    }
+    
+    .welcome .rightSection h1 {
+        font-size: 1em;
+        margin-bottom: 0.15em;
+    }
+
+    #dibujoIris {
+        width: 50%;
+        height: 50%;
+    }
+}
+
 /* SOBRE MI */
 .aboutMe {
     display: flex;
-    flex-wrap: wrap;
     background: linear-gradient(to bottom, #ab93c9 0%, #d698b9 50%, #d698b9 100%);
     width: 100vw;
     height: 100vh;
@@ -168,6 +206,13 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.44);
 }
 
+@media screen and (max-width: 769px) {
+    .aboutMe { 
+        flex-wrap: wrap;
+        text-align: center
+    }
+}
+
 /* TECNOLOGÍAS */
 .skills {
     display: flex;
@@ -181,7 +226,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #technologies {
-    height: 45%;
+    height: 40%;
     padding: 1.563em;
     margin-top: 1.563em;
     margin-bottom: 1.563em;
@@ -208,7 +253,7 @@ h1, h2, h3, h4, h5, h6 {
     flex-wrap: wrap;
 }
 
-@media(max-width: 600px) {
+@media screen and (max-width: 769px) {
     .projectsList {
         flex-direction: column;
         justify-content: space-between;
@@ -266,18 +311,24 @@ h1, h2, h3, h4, h5, h6 {
 
 /* CONTACTO */
 
-#miCaraTren {
-    height: 34.375em;
-    width: 34.375em;
-    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.44);
-}
- 
 .contact {
     width: 100vw;
-    height: 100vh;  
+    height: 100vh;
+    display: flex;  
+    flex-direction: column;
     text-align: center;
-    padding: 1.563em;
     background: linear-gradient(to bottom, #ffbea3 0%, #ffeca3 50%, #ffeca3 100%);
+}
+
+.contact h4 {
+    margin: 0.8em;
+    font-size: 1.5em;
+}
+
+#miCaraTren {
+    height: 15em;
+    width: 15em;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.44);
 }
 
 /* FOOTER */
