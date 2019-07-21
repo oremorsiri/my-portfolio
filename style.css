@@ -92,6 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* BIENVENIDA */
 .welcome {  
+    justify-content: center;
     width: 100vw;
     height: 100vh;  
     display: flex;
@@ -171,6 +172,7 @@ h1, h2, h3, h4, h5, h6 {
     background: linear-gradient(to bottom, #ab93c9 0%, #d698b9 50%, #d698b9 100%);
     width: 100vw;
     height: 100vh;
+    justify-content: center;
 }
 
 .aboutMe .rightSection {
@@ -218,6 +220,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content: center;
     background: linear-gradient(to bottom, #d698b9 0%, #eda1ab 50%, #eda1ab 100%);
     padding: 1.563em;
     font-size: 1.5em;
@@ -238,6 +241,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 100vh;  
     text-align: center;
     padding: 1.563em;
+    justify-content: center;
     background: linear-gradient(to bottom, #eda1ab 0%, #ffbea3 50%, #ffbea3 100%);
 }
 
