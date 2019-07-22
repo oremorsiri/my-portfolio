@@ -11,7 +11,12 @@
     color: #ffebe7;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Arbutus Slab', serif;
 }
 
@@ -81,37 +86,38 @@ h1, h2, h3, h4, h5, h6 {
         flex-direction: column;
         display: none;
     }
-    #toggle:checked + .navbar {
+
+    #toggle:checked+.navbar {
         display: flex;
     }
 
     .togglearea {
         display: flex;
+        position: sticky;
+        top: 0;
+        z-index: 2;
     }
 }
 
 /* BIENVENIDA */
-.welcome {  
-    justify-content: center;
+.welcome {
+    justify-content: space-evenly;
     width: 100vw;
-    height: 100vh;  
+    height: 100vh;
     display: flex;
     background: linear-gradient(to bottom, grey 0%, #ab93c9 50%, #ab93c9 100%);
 }
 
 .welcome .leftSection {
-    padding: 1.563em;
-    align-self: center;     
+    align-self: center;
 }
 
 #dibujoIris {
-    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.44);
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.44);
 }
 
 .welcome .rightSection {
-    padding: 1.563em;
-    margin-top: 7em;
-    margin-left: 7em;    
+    align-self: center;
 }
 
 .welcome .rightSection h3 {
@@ -130,14 +136,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (max-width: 769px) {
-    .welcome { 
+    .welcome {
         flex-wrap: wrap;
-        text-align: center;  
+        text-align: center;
     }
 
     .welcome .leftSection {
         padding: 0;
-        align-self: center;     
+        align-self: center;
     }
 
     .welcome .rightSection {
@@ -149,12 +155,12 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 1.5em;
         margin-bottom: 0.4em;
     }
-    
+
     .welcome .rightSection h2 {
         font-size: 1.25em;
         margin-bottom: 0.25em;
     }
-    
+
     .welcome .rightSection h1 {
         font-size: 1em;
         margin-bottom: 0.15em;
@@ -194,7 +200,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 100px;
     width: 100px;
     margin: 0.8em;
-    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.44);
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.44);
 }
 
 .aboutMe .leftSection {
@@ -205,11 +211,11 @@ h1, h2, h3, h4, h5, h6 {
     height: 450px;
     width: 450px;
     border-radius: 2.5em;
-    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.44);
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.44);
 }
 
 @media screen and (max-width: 769px) {
-    .aboutMe { 
+    .aboutMe {
         flex-wrap: wrap;
         text-align: center
     }
@@ -238,7 +244,7 @@ h1, h2, h3, h4, h5, h6 {
 /* PROYECTOS */
 .projects {
     width: 100vw;
-    height: 100vh;  
+    height: 100vh;
     text-align: center;
     padding: 1.563em;
     justify-content: center;
@@ -274,12 +280,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
-.project > h5 {
+.project>h5 {
     font-size: 1em;
     margin: 0.8em
 }
 
-.project > img {
+.project>img {
     width: 300px;
     height: 180px;
     max-width: 50vw;
@@ -291,7 +297,8 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: row;
 }
 
-.repoButton, .demoButton {	
+.repoButton,
+.demoButton {
     background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
     background-color: #ededed;
     border: 1px solid #d6bcd6;
@@ -304,13 +311,15 @@ h1, h2, h3, h4, h5, h6 {
     margin: 2.5px;
 }
 
-.repoButton:hover, .demoButton:hover {
-	background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+.repoButton:hover,
+.demoButton:hover {
+    background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
 }
 
-.repoButton:active, .demoButton:active {
-	position: relative;
-	top: 1px;
+.repoButton:active,
+.demoButton:active {
+    position: relative;
+    top: 1px;
 }
 
 /* CONTACTO */
@@ -318,7 +327,7 @@ h1, h2, h3, h4, h5, h6 {
 .contact {
     width: 100vw;
     height: 100vh;
-    display: flex;  
+    display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
@@ -360,7 +369,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 220px;
 }
 
- .contact .emailButton {
+.contact .emailButton {
     background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
     background-color: #ededed;
     border: 1px solid #d6bcd6;
@@ -371,7 +380,7 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     text-shadow: 0px 0px 0px #e1e2ed;
     margin: 2.5px;
-    
+
 }
 
 .contact .emailButton:hover {
