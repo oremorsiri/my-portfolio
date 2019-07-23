@@ -241,6 +241,27 @@ h6 {
     margin-bottom: 1.563em;
 }
 
+.technologiesPhone {
+    display: none;
+}
+
+@media screen and (max-width: 769px) {
+    .technologiesPhone {
+        display: block;
+        width: 60%;
+        align-self: center;
+    }
+
+    #technologiesPhone {
+        width: 30%;
+        align-self: center;
+    }
+
+    #technologies {
+        display: none;
+    }
+}
+
 /* PROYECTOS */
 .projects {
     width: 100vw;
