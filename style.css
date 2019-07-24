@@ -101,10 +101,10 @@ h6 {
 
 /* BIENVENIDA */
 .welcome {
-    justify-content: space-evenly;
-    width: 100vw;
     height: 100vh;
+    width: 100vw;
     display: flex;
+    justify-content: space-evenly;
     background: linear-gradient(to bottom, grey 0%, #ab93c9 50%, #ab93c9 100%);
 }
 
@@ -174,60 +174,79 @@ h6 {
 
 /* SOBRE MI */
 .aboutMe {
-    display: flex;
     background: linear-gradient(to bottom, #ab93c9 0%, #d698b9 50%, #d698b9 100%);
+    text-align: center;
     width: 100vw;
     height: 100vh;
-    justify-content: center;
 }
 
-.aboutMe .rightSection {
-    padding: 25px;
-    text-align: center;
-}
-
-.aboutMe .rightSection h4 {
-    margin: 0.8em;
+.aboutMe h4 {
+    padding: 0.8em;
     font-size: 1.5em;
 }
 
 .aboutMe p {
-    text-align: justify;
     text-indent: 2.5em;
 }
 
 #gatoCoder {
-    height: 100px;
-    width: 100px;
-    margin: 0.8em;
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.44);
-}
-
-.aboutMe .leftSection {
-    padding: 25px;
-}
-
-#fotoCoder {
-    height: 450px;
-    width: 450px;
-    border-radius: 2.5em;
-    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.44);
+    width: 20%;
 }
 
 @media screen and (max-width: 769px) {
     .aboutMe {
+    }
+}
+
+/* MÁS COSAS */
+.moreMe {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(to bottom, #d698b9 0%, #eda1ab 50%, #eda1ab 100%);
+}
+
+#fotoCoder {
+    width: 70%;
+    height: 70%;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.44);
+}
+
+.moreMe .leftSection {
+    align-self: center;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.moreMe .leftSection h4 {
+    font-size: 1.5em;
+    margin-bottom: 0.8em;
+}
+
+.moreMe .rightSection {
+    align-self: center;
+}
+
+@media screen and (max-width: 769px) {
+    .moreMe {
         flex-wrap: wrap;
-        text-align: center
+        text-align: center;
+    }
+
+    #fotoCoder {
+        width: 30%;
     }
 }
 
 /* TECNOLOGÍAS */
 .skills {
+    background: linear-gradient(to bottom, #eda1ab 0%, #edbda1 50%, #edbda1 100%);
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    background: linear-gradient(to bottom, #d698b9 0%, #eda1ab 50%, #eda1ab 100%);
     padding: 1.563em;
     font-size: 1.5em;
     width: 100vw;
@@ -264,12 +283,12 @@ h6 {
 
 /* PROYECTOS */
 .projects {
+    background: linear-gradient(to bottom, #edbda1 0%, #ede3a1 50%, #ede3a1 100%);
     width: 100vw;
     height: 100vh;
     text-align: center;
     padding: 1.563em;
     justify-content: center;
-    background: linear-gradient(to bottom, #eda1ab 0%, #ffbea3 50%, #ffbea3 100%);
 }
 
 .projects h4 {
@@ -346,6 +365,7 @@ h6 {
 /* CONTACTO */
 
 .contact {
+    background: linear-gradient(to bottom, #ede3a1 0%, #eee7bb 50%, #eee7bb 100%);
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -353,7 +373,6 @@ h6 {
     text-align: center;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to bottom, #ffbea3 0%, #ffeca3 50%, #ffeca3 100%);
 }
 
 .contact h4 {
@@ -421,5 +440,4 @@ h6 {
 
 /* FOOTER */
 /* footer {
-    background: linear-gradient(to bottom, #ffeca3 0%, white 50%, white 100%);
 } */

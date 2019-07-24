@@ -71,39 +71,46 @@
     <div class="section" data-anchor="section2">
       
       <div class="aboutMe">
-
-        <div class="rightSection">
-          <h4>¿Te cuento algo sobre mí?</h4>
-          <p>Me encanta el desarrollo web y diseñar cosas bonitas. Aunque tengo una licenciatura en Historia, hace un año
-            hice un curso de marketing digital que me descubrió la programación web y con ello mi carrera profesional
-            cambió
-            totalmente de rumbo.</p>
-          <br>
-          <p>Ahora he terminado un bootcamp con GeeksHubs que me ha permitido convertirme en FullStack Web Developer. He
+        <h4>¿Te cuento algo sobre mí?</h4>
+        <p>Me encanta el desarrollo web y diseñar cosas bonitas. Aunque tengo una licenciatura en Historia, hace un año
+          hice un curso de marketing digital que me descubrió la programación web y con ello mi carrera profesional
+          cambió totalmente de rumbo.</p>
+        <br>
+        <p>Ahora he terminado un bootcamp con GeeksHubs que me ha permitido convertirme en FullStack Web Developer. He
             aprendido a programar desde cero y he descubierto cuanto me gusta plantar cara a un reto nuevo cada vez, pero
             sobretodo la satisfacción que siento cuando consigo superarlo.</p>
-          <img id="gatoCoder"
+        <img id="gatoCoder"
             src="https://media1.giphy.com/media/heIX5HfWgEYlW/giphy.gif?cid=790b76115d320c8b3737535545c3791b&rid=giphy.gif"
-            alt="Gato tecleando">
-          <h4>¿Más cosas?</h4>
-          <p>Me encantan la fotografía, los videojuegos, hornear dulces y las manualidades. Cuando tengo un rato libre me
-            gusta aprovecharlo haciendo alguna de estas cosas, a veces todas a la vez!</p>
-          <br>
-          <p>Pasé cuatro años viviendo en Irlanda y otro en Inglaterra lo que me ha permitido adoptar una visión más
-            global
-            del mundo, además de aprender el idioma y hacer amigos de todas partes.</p>
-        </div>
-
-        <div class="leftSection">
-          <img id="fotoCoder" src="images/iris-fotocoder.jpeg" alt="Iris">
-        </div>
-
+            alt="Gato tecleando">  
       </div>
-
+    
     </div>
 
-    <!-- TECNOLOGÍAS -->
+    <!-- MÁS COSAS -->
     <div class="section" data-anchor="section3">
+      
+      <div class="moreMe">
+
+        <div class="leftSection">
+          <h4>¿Más cosas?</h4>
+          <p>Me encantan la fotografía, los videojuegos, hornear dulces y las manualidades. Cuando tengo un rato libre me
+          gusta aprovecharlo haciendo alguna de estas cosas, o a veces todas a la vez!</p>
+          <br>
+          <p>Pasé cuatro años viviendo en Irlanda y otro en Inglaterra lo que me ha permitido adoptar una visión más
+          global
+          del mundo, además de aprender el idioma y hacer amigos de todas partes.</p>
+        </div>
+
+        <div class="rightSection">
+          <img id="fotoCoder" src="images/iris-fotocoder.jpeg" alt="Iris">
+        </div>
+        
+    </div>
+  
+  </div>
+
+    <!-- TECNOLOGÍAS -->
+    <div class="section" data-anchor="section4">
       <div class="skills">
         <h4>Tecnologías, frameworks y lenguajes</h4>
         <img id="technologies" src="images/tecnologías-fullstacktr.png" alt="tecnologías fullstack">
@@ -114,7 +121,7 @@
     </div>
 
     <!-- PROYECTOS -->
-    <div class="section" data-anchor="section4">
+    <div class="section" data-anchor="section5">
       <div class="projects">
 
       <h4>Mis proyectos</h4>
@@ -177,7 +184,7 @@
     </div>
 
     <!-- CONTACTO -->
-    <div class="section" data-anchor="section5">
+    <div class="section" data-anchor="section6">
       
         <div class="contact">
                   
@@ -209,7 +216,7 @@
     new fullpage('#fullpage', {
       autoScrolling: true,
       scrollHorizontally: true,
-      anchors: ['welcome', 'aboutMe', 'skills', 'projects', 'contact'],
+      anchors: ['welcome', 'aboutMe', 'moreMe', 'skills', 'projects', 'contact'],
       licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE'
     }
     );
