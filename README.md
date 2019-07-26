@@ -9,7 +9,7 @@ Pruébalo haciendo click [aquí](https://oremorsiri.github.io/my-portfolio/)
 
 ***
 
-My porfolio, here I tell a bit about me and you can find some of the projects I have worked on.
+My portfolio, here I tell a bit about me and you can find some of the projects I have worked on.
 
 ![Main](https://i.ibb.co/s38kFCp/Web-Personal.png)
 
