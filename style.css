@@ -102,9 +102,9 @@ h6 {
 /* BIENVENIDA */
 .welcome {
     height: 100vh;
-    width: 100vw;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     background: linear-gradient(to bottom, grey 0%, #ab93c9 50%, #ab93c9 100%);
 }
 
@@ -118,11 +118,6 @@ h6 {
 
 .welcome .rightSection {
     align-self: center;
-}
-
-.welcome .rightSection h3 {
-    font-size: 3em;
-    margin-bottom: 0.8em;
 }
 
 .welcome .rightSection h2 {
@@ -139,16 +134,8 @@ h6 {
     .welcome {
         flex-wrap: wrap;
         text-align: center;
-    }
-
-    .welcome .leftSection {
-        padding: 0;
+        justify-content: center;
         align-self: center;
-    }
-
-    .welcome .rightSection {
-        padding: inherit;
-        margin-top: 0;
     }
 
     .welcome .rightSection h3 {
@@ -176,7 +163,6 @@ h6 {
 .aboutMe {
     background: linear-gradient(to bottom, #ab93c9 0%, #d698b9 50%, #d698b9 100%);
     text-align: center;
-    width: 100vw;
     height: 100vh;
 }
 
@@ -205,9 +191,9 @@ h6 {
 
 /* MÁS COSAS */
 .moreMe {
-    width: 100vw;
     height: 100vh;
-    display: flex;
+    display: flex;align-items: center;
+    justify-content: center;
     justify-content: space-evenly;
     background: linear-gradient(to bottom, #d698b9 0%, #eda1ab 50%, #eda1ab 100%);
 }
@@ -253,7 +239,6 @@ h6 {
     justify-content: center;
     padding: 1.563em;
     font-size: 1.5em;
-    width: 100vw;
     height: 100vh;
 }
 
@@ -288,11 +273,11 @@ h6 {
 /* PROYECTOS */
 .projects {
     background: linear-gradient(to bottom, #edbda1 0%, #ede3a1 50%, #ede3a1 100%);
-    width: 100vw;
     height: 100vh;
     text-align: center;
     padding: 1.563em;
     justify-content: center;
+    align-items: center;
     padding-top: 5%;
 }
 
@@ -306,14 +291,6 @@ h6 {
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-}
-
-@media screen and (max-width: 769px) {
-    .projectsList {
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    }
 }
 
 .project {
@@ -367,11 +344,30 @@ h6 {
     top: 1px;
 }
 
+@media screen and (max-width: 600px) {
+    .projectsList {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .buttons {
+        display: none;
+    }
+
+    .project h5 {
+        display: none;
+    }
+
+    .projects h4 {
+        display: none;
+    }
+}
+
 /* CONTACTO */
 
 .contact {
     background: linear-gradient(to bottom, #ede3a1 0%, #eee7bb 50%, #eee7bb 100%);
-    width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -384,12 +380,6 @@ h6 {
     margin: 0.8em;
     font-size: 1.5em;
 }
-
-/* #miCaraTren {
-    height: 15em;
-    width: 15em;
-    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.44);
-} */
 
 
 
