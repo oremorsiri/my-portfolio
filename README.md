@@ -1,5 +1,5 @@
 # 🌈 My portfolio 🌈
-Mi página persona, aquí os hablo un poquito sobre mi y podeis encontrar algunos de mis proyectos.
+🇪🇸 Mi página persona, aquí os hablo un poquito sobre mi y podeis encontrar algunos de mis proyectos.
 
 ![Main](https://i.ibb.co/s38kFCp/Web-Personal.png)
 
@@ -9,7 +9,7 @@ Pruébalo haciendo click [aquí](https://oremorsiri.github.io/my-portfolio/)
 
 ***
 
-My portfolio, here I tell a bit about me and you can find some of the projects I have worked on.
+🇬🇧 My portfolio, here I tell a bit about me and you can find some of the projects I have worked on.
 
 ![Main](https://i.ibb.co/s38kFCp/Web-Personal.png)
 
