@@ -118,6 +118,7 @@ h6 {
 
 .welcome .rightSection {
     align-self: center;
+    padding-left: 2.5%;
 }
 
 .welcome .rightSection h2 {
@@ -130,25 +131,36 @@ h6 {
     margin-bottom: 0.3em;
 }
 
+.welcomePhone {
+    display: none;
+}
+
 @media screen and (max-width: 769px) {
     .welcome {
-        flex-wrap: wrap;
+        display: none;
+    }
+    
+    .welcomePhone {
+        display: block;
+        padding-top: 2.5%;
+        background: linear-gradient(to bottom, grey 0%, #ab93c9 50%, #ab93c9 100%);
         text-align: center;
-        justify-content: center;
-        align-self: center;
+        height: 100vh;
     }
 
-    .welcome .rightSection h3 {
+    .welcomePhone h3 {
+        padding-top: 2.5%;
         font-size: 1.5em;
         margin-bottom: 0.4em;
     }
 
-    .welcome .rightSection h2 {
+    .welcomePhone h2 {
+        padding-top: 2.5%;
         font-size: 1.25em;
         margin-bottom: 0.25em;
     }
 
-    .welcome .rightSection h1 {
+    .welcomePhone h1 {
         font-size: 1em;
         margin-bottom: 0.15em;
     }
@@ -183,6 +195,7 @@ h6 {
     width: 20%;
     margin-top: 1em;
 }
+
 
 @media screen and (max-width: 769px) {
     .aboutMe {
