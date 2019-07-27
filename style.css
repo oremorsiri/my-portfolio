@@ -1,7 +1,7 @@
 /* RESET */
 * {
-    /* margin: 0; */
-    /* padding: 0; */
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
@@ -35,7 +35,7 @@ h6 {
     text-align: center;
     font-weight: bold;
     text-decoration: none;
-    /* padding: 0.875em 0.571em; */
+    padding: 0.875em 0.571em;
     align-self: center;
 }
 
@@ -52,7 +52,7 @@ h6 {
     background-color: grey;
     border-bottom: 0.125em solid white;
     color: white;
-    /* padding: 0.625em; */
+    padding: 0.625em;
     display: flex;
     justify-content: flex-end;
 }
@@ -60,7 +60,7 @@ h6 {
 .togglearea label {
     background-color: white;
     height: 2.813em;
-    /* width: 3.125em; */
+    width: 3.125em;
     color: black;
     border-radius: 0.375em;
     cursor: pointer;
@@ -72,9 +72,9 @@ h6 {
 
 .togglearea label span {
     background-color: black;
-    /* height: 0.250em; */
-    /* width: 70%; */
-    /* margin: 0.125em 0em; */
+    height: 0.250em;
+    width: 70%;
+    margin: 0.125em 0em;
 }
 
 .togglearea {
@@ -101,7 +101,7 @@ h6 {
 
 /* BIENVENIDA */
 .welcome {
-    /* height: 100vh; */
+    height: 100vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -118,56 +118,56 @@ h6 {
 
 .welcome .rightSection {
     align-self: center;
-    /* padding-left: 2.5%; */
+    padding-left: 2.5%;
 }
 
 .welcome .rightSection h2 {
     font-size: 2.5em;
-    /* margin-bottom: 0.5em; */
+    margin-bottom: 0.5em;
 }
 
 .welcome .rightSection h1 {
     font-size: 2em;
-    /* margin-bottom: 0.3em; */
+    margin-bottom: 0.3em;
 }
 
 .welcomePhone {
     display: none;
 }
 
-/* @media screen and (max-width: 769px) { */
+@media screen and (max-width: 769px) {
     .welcome {
         display: none;
     }
     
     .welcomePhone {
         display: block;
-        /* padding-top: 2.5%; */
+        padding-top: 2.5%;
         background: linear-gradient(to bottom, grey 0%, #ab93c9 50%, #ab93c9 100%);
         text-align: center;
-        /* height: 100vh; */
+        height: 100vh;
     }
 
     .welcomePhone h3 {
-        /* padding-top: 2.5%; */
+        padding-top: 2.5%;
         font-size: 1.5em;
-        /* margin-bottom: 0.4em; */
+        margin-bottom: 0.4em;
     }
 
     .welcomePhone h2 {
-        /* padding-top: 2.5%; */
+        padding-top: 2.5%;
         font-size: 1.25em;
-        /* margin-bottom: 0.25em; */
+        margin-bottom: 0.25em;
     }
 
     .welcomePhone h1 {
         font-size: 1em;
-        /* margin-bottom: 0.15em; */
+        margin-bottom: 0.15em;
     }
 
     #dibujoIris {
-        /* width: 45%; */
-        /* height: 45%; */
+        width: 45%;
+        height: 45%;
     }
 }
 
@@ -175,28 +175,28 @@ h6 {
 .aboutMe {
     background: linear-gradient(to bottom, #ab93c9 0%, #d698b9 50%, #d698b9 100%);
     text-align: center;
-    /* height: 100vh; */
+    height: 100vh;
 }
 
 .aboutMe h4 {
-    /* padding: 0.8em; */
+    padding: 0.8em;
     font-size: 1.5em;
-    /* padding-top: 2.5%; */
+    padding-top: 2.5%;
 }
 
 .aboutMe p {
     text-indent: 2.5em;
-    /* padding-left: 20%;
-    padding-right: 20%; */
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 #gatoCoder {
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.44);
-    /* width: 20%; */
-    /* margin-top: 1em; */
+    width: 20%;
+    margin-top: 1em;
 }
 
-/* @media screen and (max-width: 769px) { */
+@media screen and (max-width: 769px) {
     .aboutMe h4 {
         font-size: 1em;
     }
@@ -208,7 +208,7 @@ h6 {
 
 /* MÁS COSAS */
 .moreMe {
-    /* height: 100vh; */
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -224,13 +224,13 @@ h6 {
 
 .moreMe .leftSection {
     align-self: center;
-    /* padding-left: 5em;
-    padding-right: 5em; */
+    padding-left: 5em;
+    padding-right: 5em;
 }
 
 .moreMe .leftSection h4 {
     font-size: 1.5em;
-    /* margin-bottom: 0.8em; */
+    margin-bottom: 0.8em;
 }
 
 .moreMe .rightSection {
@@ -244,14 +244,15 @@ h6 {
 @media screen and (max-width: 769px) {
     .moreMe {
         display: none;
+        
     }
     
     .moreMePhone {
         display: block;
-        /* padding-top: 2.5%; */
+        padding-top: 2.5%;
         background: linear-gradient(to bottom, #d698b9 0%, #eda1ab 50%, #eda1ab 100%);
         text-align: center;
-        /* height: 100vh; */
+        height: 100vh;
     }
 
     .moreMePhone h4 {
@@ -263,7 +264,7 @@ h6 {
     }
     
     #fotoCoder {
-        /* width: 30%; */
+        width: 30%;
         height: 30%;
     }
 }
@@ -275,16 +276,16 @@ h6 {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    /* padding: 1.563em; */
+    padding: 1.563em;
     font-size: 1.5em;
-    /* height: 100vh; */
+    height: 100vh;
 }
 
 #technologies {
     height: 40%;
-    /* padding: 1.563em; */
-    /* margin-top: 1.563em; */
-    /* margin-bottom: 1.563em; */
+    padding: 1.563em;
+    margin-top: 1.563em;
+    margin-bottom: 1.563em;
 }
 
 .technologiesPhone {
@@ -298,12 +299,12 @@ h6 {
     
     .technologiesPhone {
         display: block;
-        /* width: 60%; */
+        width: 60%;
         align-self: center;
     }
 
     #technologiesPhone {
-        /* width: 30%; */
+        width: 30%;
         align-self: center;
     }
 
@@ -315,16 +316,16 @@ h6 {
 /* PROYECTOS */
 .projects {
     background: linear-gradient(to bottom, #edbda1 0%, #ede3a1 50%, #ede3a1 100%);
-    /* height: 100vh; */
+    height: 100vh;
     text-align: center;
-    /* padding: 1.563em; */
+    padding: 1.563em;
     justify-content: center;
     align-items: center;
-    /* padding-top: 5%; */
+    padding-top: 5%;
 }
 
 .projects h4 {
-    /* margin: 0.8em; */
+    margin: 0.8em;
     font-size: 1.5em;
 }
 
@@ -337,7 +338,7 @@ h6 {
 
 .project {
     position: relative;
-    /* margin: 0.5em; */
+    margin: 0.5em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -346,13 +347,13 @@ h6 {
 
 .project>h5 {
     font-size: 1em;
-    /* margin: 0.8em */
+    margin: 0.8em
 }
 
 .project>img {
-    /* width: 300px; */
+    width: 300px;
     height: 180px;
-    /* max-width: 50vw; */
+    max-width: 50vw;
     max-height: 30vw;
 }
 
@@ -418,9 +419,9 @@ h6 {
     }
 
     .projectPhone a img {
-        /* width: 100%; */
+        width: 100%;
         height: 100%;
-        /* padding: 0.5em; */
+        padding: 0.5em;
     }
 }
 
@@ -428,7 +429,7 @@ h6 {
 
 .contact {
     background: linear-gradient(to bottom, #ede3a1 0%, #eee7bb 50%, #eee7bb 100%);
-    /* height: 100vh; */
+    height: 100vh;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -437,7 +438,7 @@ h6 {
 }
 
 .contact h4 {
-    /* margin: 0.8em; */
+    margin: 0.8em;
     font-size: 1.5em;
 }
 
