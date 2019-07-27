@@ -166,8 +166,8 @@ h6 {
     }
 
     #dibujoIris {
-        width: 50%;
-        height: 50%;
+        width: 45%;
+        height: 45%;
     }
 }
 
@@ -196,16 +196,21 @@ h6 {
     margin-top: 1em;
 }
 
-
 @media screen and (max-width: 769px) {
-    .aboutMe {
+    .aboutMe h4 {
+        font-size: 1em;
+    }
+
+    .aboutMe p {
+        font-size: 0.8em;
     }
 }
 
 /* MÁS COSAS */
 .moreMe {
     height: 100vh;
-    display: flex;align-items: center;
+    display: flex;
+    align-items: center;
     justify-content: center;
     justify-content: space-evenly;
     background: linear-gradient(to bottom, #d698b9 0%, #eda1ab 50%, #eda1ab 100%);
@@ -232,14 +237,35 @@ h6 {
     align-self: center;
 }
 
+.moreMePhone {
+    display:none;
+}
+
 @media screen and (max-width: 769px) {
     .moreMe {
-        flex-wrap: wrap;
+        display: none;
+        
+    }
+    
+    .moreMePhone {
+        display: block;
+        padding-top: 2.5%;
+        background: linear-gradient(to bottom, #d698b9 0%, #eda1ab 50%, #eda1ab 100%);
         text-align: center;
+        height: 100vh;
     }
 
+    .moreMePhone h4 {
+        font-size: 1em;
+    }
+
+    .moreMePhone p {
+        font-size: 0.8em;
+    }
+    
     #fotoCoder {
         width: 30%;
+        height: 30%;
     }
 }
 
@@ -267,6 +293,10 @@ h6 {
 }
 
 @media screen and (max-width: 769px) {
+    .skills h4 {
+        font-size: 1em;
+    }
+    
     .technologiesPhone {
         display: block;
         width: 60%;
