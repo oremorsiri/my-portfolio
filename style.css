@@ -101,15 +101,9 @@ h6 {
 
 /* BIENVENIDA */
 .welcome {
-    height: 100vh;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
     background: linear-gradient(to bottom, grey 0%, #ab93c9 50%, #ab93c9 100%);
-}
-
-.welcome .leftSection {
-    align-self: center;
 }
 
 #dibujoIris {
@@ -118,17 +112,10 @@ h6 {
 
 .welcome .rightSection {
     align-self: center;
-    padding-left: 2.5%;
 }
 
 .welcome .rightSection h2 {
     font-size: 2.5em;
-    margin-bottom: 0.5em;
-}
-
-.welcome .rightSection h1 {
-    font-size: 2em;
-    margin-bottom: 0.3em;
 }
 
 .welcomePhone {
@@ -175,13 +162,11 @@ h6 {
 .aboutMe {
     background: linear-gradient(to bottom, #ab93c9 0%, #d698b9 50%, #d698b9 100%);
     text-align: center;
-    height: 100vh;
 }
 
 .aboutMe h4 {
     padding: 0.8em;
     font-size: 1.5em;
-    padding-top: 2.5%;
 }
 
 .aboutMe p {
