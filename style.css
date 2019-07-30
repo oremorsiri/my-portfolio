@@ -11,6 +11,10 @@
     color: #ffebe7;
 }
 
+img {
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.44);
+}
+
 h1,
 h2,
 h3,
@@ -106,10 +110,6 @@ h6 {
     background: linear-gradient(to bottom, grey 0%, #ab93c9 50%, #ab93c9 100%);
 }
 
-#dibujoIris {
-    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.44);
-}
-
 .welcome .rightSection {
     align-self: center;
 }
@@ -176,7 +176,6 @@ h6 {
 }
 
 #gatoCoder {
-    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.44);
     width: 20%;
     margin-top: 1em;
 }
@@ -193,11 +192,7 @@ h6 {
 
 /* MÁS COSAS */
 .moreMe {
-    height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-evenly;
     background: linear-gradient(to bottom, #d698b9 0%, #eda1ab 50%, #eda1ab 100%);
 }
 
@@ -209,8 +204,8 @@ h6 {
 
 .moreMe .leftSection {
     align-self: center;
-    padding-left: 5em;
-    padding-right: 5em;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .moreMe .leftSection h4 {
