@@ -294,16 +294,10 @@ h6 {
 /* PROYECTOS */
 .projects {
     background: linear-gradient(to bottom, #edbda1 0%, #ede3a1 50%, #ede3a1 100%);
-    height: 100vh;
-    text-align: center;
-    padding: 1.563em;
-    justify-content: center;
-    align-items: center;
-    padding-top: 5%;
 }
 
 .projects h4 {
-    margin: 0.8em;
+    text-align: center;
     font-size: 1.5em;
 }
 
@@ -321,6 +315,10 @@ h6 {
     flex-direction: column;
     align-items: center;
     font-weight: bold;
+}
+
+.demo {
+    box-shadow: none;
 }
 
 .project>h5 {
@@ -407,28 +405,17 @@ h6 {
 
 .contact {
     background: linear-gradient(to bottom, #ede3a1 0%, #eee7bb 50%, #eee7bb 100%);
-    height: 100vh;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    justify-content: center;
 }
 
 .contact h4 {
-    margin: 0.8em;
     font-size: 1.5em;
 }
 
 
-
-
-@media(max-width:800px) {
-    .contact {
-        flex-direction: column;
-        justify-content: center;
-    }
-}
 
 .contact>div:nth-child(2) {
     background-image: url("images/iris-tren.jpg");
@@ -468,8 +455,15 @@ h6 {
     justify-content: space-between;
 }
 
-.rrss {
-    padding: 2em;
+.rrss a img{
+    box-shadow: none;
+}
+
+@media(max-width:800px) {
+    .contact {
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 /* FOOTER */
