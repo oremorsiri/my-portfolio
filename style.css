@@ -251,14 +251,12 @@ h6 {
 
 /* TECNOLOGÍAS */
 .skills {
-    display: flex;
-    flex-direction: column;
-   
+    text-align: center;   
 }
 
 .skills h4 {
     font-size: 1.5em;
-    text-align: center;
+    padding: 0.8em;
 }
 
 #technologies {
